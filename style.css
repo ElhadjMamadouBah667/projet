@@ -1,0 +1,152 @@
+/* style general */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+/* header */
+header{
+    background-color: #f5e6da;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #deb887;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #8b4513;
+}
+header p {
+    font-size: 1.2em;
+    color: #5c3d2e;
+}
+header img {
+    margin-top: 5px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+/*navigation*/
+nav{
+    background-color: #deb887;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/*section principale */
+main{
+    padding: 20px;
+}
+main h2 {
+    color: #8b4513;
+    border-bottom: 1px solid #deb887;
+    padding: 5px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+main img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px; rgba(0,0,0,0.2);
+}
+footer{
+    background-color:white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #5c3d2e;
+    margin-top: 40px;
+    border-top: 2px solid #deb887;
+}
+.accueil {
+    background-image: url(image/huy-bui-gvFli0bHBNA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.navbar {
+    margin-top: 1rem;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cont{
+    text-align: center;
+}
+.galerie {
+    padding: 1rem;
+    background-color: #fef3ef;
+    text-align: center;
+}
+.galerie h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #5a3c5a;
+}
+.galerie-image img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 0;
+}
+.galerie-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu {
+    background-image: url(image/donuts-5985004_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    padding: 1rem;
+}
+.contact{
+    background-image: url(image/tea-party-1001654_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    padding: 1rem;
+
+}
+.cont{
+    color: aqua;
+}
+.cont h2 {
+    color: white;
+}
